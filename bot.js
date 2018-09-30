@@ -15,7 +15,7 @@ client.on("message", (message) => {
 
 
   if (message.content.startsWith(prefix + "help")) {
-    message.channel.send("Hello! I’m Sasaki Haise, your new assistant. The best way to reach me is by typing s! ＋ another word, but feel free to keep chatting like normal. I look forward to working with you!");
+    message.channel.send("Hello! I’m Sasaki Haise, your new assistant. The best way to reach me is by typing s! and another word, but feel free to keep chatting like normal. I look forward to working with you!");
   } 
 
 });
