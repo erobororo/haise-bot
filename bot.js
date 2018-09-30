@@ -16,7 +16,7 @@ client.on("message", (message) => {
 
 
   if (message.content.startsWith(prefix + "help")) {
-    message.channel.send("Hello, I’m Sasaki Haise, your new assistant! The best way to reach me is by typing s! and another word, but feel free to keep chatting like normal. I look forward to working with you!");
+    message.channel.send("Hello! I’m Sasaki Haise, your new assistant. The best way to reach me is by typing s! and another word, but feel free to keep chatting like normal. I look forward to working with you!");
   } 
 
 });
@@ -48,6 +48,63 @@ client.on("message", (message)=>{
 
   if (message.content.includes("i love you haise")) {
     message.channel.send(randomMessage());
+  } else
+
+  if (message.content.includes("I love you Haise")) {
+    message.channel.send(randomMessage());
+  } else
+
+  if (message.content.includes("i love you, haise")) {
+    message.channel.send(randomMessage());
+  } else
+
+  if (message.content.includes("I love you, haise")) {
+    message.channel.send(randomMessage());
+  } else
+
+  if (message.content.includes("i love you Haise")) {
+    message.channel.send(randomMessage());
+  } else
+
+  if (message.content.includes("I love you, Haise")) {
+    message.channel.send(randomMessage());
+  } else
+
+
+
+
+  if (message.content.includes("i love you sas")) {
+    message.channel.send(randomMessage());
+  } else
+
+  if (message.content.includes("I love you Sas")) {
+    message.channel.send(randomMessage());
+  } else
+
+  if (message.content.includes("i love you, sas")) {
+    message.channel.send(randomMessage());
+  } else
+
+  if (message.content.includes("I love you, sas")) {
+    message.channel.send(randomMessage());
+  } else
+
+  if (message.content.includes("i love you Sas")) {
+    message.channel.send(randomMessage());
+  } else
+
+  if (message.content.includes("I love you, Sas")) {
+    message.channel.send(randomMessage());
+  } else
+
+
+
+
+
+
+
+  if (message.content.includes("what do you look like")) {
+    message.channel.send("https://cdn.discordapp.com/attachments/495806477995343882/495877482155606035/Screen_Shot_2018-09-28_at_7.41.57_PM.png");
   } 
 
 });
