@@ -15,7 +15,7 @@ client.on("message", (message) => {
 
 
   if (message.content.startsWith(prefix + "help")) {
-    message.channel.send("Hi! I’m Sasaki Haise, your new assistant. I respond best when you use s! followed by another word, so try it out sometime! I look forward to working with you.");
+    message.channel.send("Hello! I’m Sasaki Haise, your new assistant. The best way to get a hold of me is by typing s! + another word, but you can also chat freely if you need something from me. I look forward to working with you!");
   } 
 
 });
@@ -27,9 +27,16 @@ client.on("message", (message) => {
   if (message.author.bot) return;
 
 
-  if (message.content.includes("i love you haise")) {
-    message.channel.send("..................ah//....");
-  } 
+  if (message.content.includes.toLowerCase().includes("I love you, Haise") || "I love you Haise") { 
+    const replies = [".........Oh.", "W-what!?", "Eh?", "U-um...!", "Oh....um, thank you...", "That’s very kind of you...", "Ah....", "P-please, not at work...!", "Um?!", "Eh???", "M-me?", "I.......love you too.", "...let’s talk about that later.", "Are you sure...?", "Ha............", "Mh..??", "......Come again?"] 
+    message.replytext = Math.floor((Math.random() * replies.length) + 0); 
+    message.channel.send(replies[message.replytext]); 
+
+}
+
+
+
+
 
    
 });
