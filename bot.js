@@ -33,9 +33,13 @@ function randomMessage(){
 
 client.on("message", (message)=>{ 
 
-  if (message.content.toLowerCase().includes("I love you, Haise")) { 
+  if (message.author.bot) return;
+
+
+  if (message.content.includes("i love you haise")) {
     message.channel.send(randomMessage());
-    }
+  } 
+
 });
 
 
