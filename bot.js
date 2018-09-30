@@ -31,7 +31,7 @@ function randomMessage(){
 
 
 function randomImage(){
-    var randomNumber = Math.round(Math.random()*12);
+    var randomNumber = Math.round(Math.random()*14);
     switch(randomNumber){
         case 0: return "https://cdn.discordapp.com/attachments/495806477995343882/495877482155606035/Screen_Shot_2018-09-28_at_7.41.57_PM.png";
         case 1: return "https://cdn.discordapp.com/attachments/495806477995343882/495888079937077249/Screen_Shot_2017-11-06_at_11.25.14_PM.png";
@@ -47,6 +47,8 @@ function randomImage(){
         case 11: return "https://cdn.discordapp.com/attachments/495806477995343882/495891720861515776/Screen_Shot_2016-01-02_at_10.06.29_PM.png";
         case 12: return "https://cdn.discordapp.com/attachments/495806477995343882/495888089441370123/Screen_Shot_2018-03-15_at_10.58.04_PM.png";
         case 13: return "http://images6.fanpop.com/image/photos/40700000/Tokyo-Ghoul-re-anime-Haise-Sasaki-ken-kaneki-40745159-1200-648.jpg";
+        case 14: return "https://cdn.discordapp.com/attachments/495806477995343882/495900706683879435/tokyo-ghoul-re-2-4.jpg";
+        case 15: return "https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwBIT2he3n-ZKMNi2eLFiUov3909gP3i15A4txELfsoU-";
 
     }
 }
