@@ -15,7 +15,7 @@ client.on("message", (message) => {
 
 
   if (message.content.startsWith(prefix + "help")) {
-    message.channel.send("Peh!		(Approach with caution.)");
+    message.channel.send("Hello! I’m Sasaki Haise, your new assistant. The best way to reach me is by typing s! followed by another word, but you can also continue to chat freely. I look forward to working with you!");
   } 
 
 });
@@ -27,7 +27,7 @@ client.on("message", (message) => {
   if (message.author.bot) return;
 
 
-  if (message.content.includes("i love you muka")) {
+  if (message.content.includes("i love you haise")) {
     message.channel.send("..................peh//....");
   } else
 
