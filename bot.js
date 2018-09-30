@@ -1,14 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
-function randomMessage(){
-    var randomNumber = Math.round(Math.random()*2); // 0, 1 or 2
-    switch(randomNumber){
-        case 0: return 'Hello!';
-        case 1: return 'Bye!';
-        case 2: return 'Random';
-    }
-}
 
 client.on("ready", () => {
   console.log("I am ready!");
@@ -30,9 +22,18 @@ client.on("message", (message) => {
 });
 
 
-robot.on('message', (message)=>{ 
+function randomMessage(){
+    var randomNumber = Math.round(Math.random()*2); // 0, 1 or 2
+    switch(randomNumber){
+        case 0: return 'Hello!';
+        case 1: return 'Bye!';
+        case 2: return 'Random';
+    }
+}
 
-    if (message.content == "%ex") {
+client.on('message', (message)=>{ 
+
+  if (message.content.toLowerCase().includes("I love you, Haise")) { 
     message.channel.send(randomMessage());
     }
 });
