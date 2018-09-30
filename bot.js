@@ -66,6 +66,82 @@ client.on("message", (message)=>{
   if (message.author.bot) return;
 
 
+  if (message.content.includes("i love haise")) {
+    message.channel.send("https://cdn.discordapp.com/attachments/495806477995343882/495888066511241226/tumblr_pb2p2wFXfr1tlsxtjo2_1280.jpg");
+  } else
+
+  if (message.content.includes("I love haise")) {
+    message.channel.send("https://cdn.discordapp.com/attachments/495806477995343882/495888066511241226/tumblr_pb2p2wFXfr1tlsxtjo2_1280.jpg");
+  } else
+
+  if (message.content.includes("i love Haise")) {
+    message.channel.send("https://cdn.discordapp.com/attachments/495806477995343882/495888066511241226/tumblr_pb2p2wFXfr1tlsxtjo2_1280.jpg");
+  } else
+
+  if (message.content.includes("I love Haise")) {
+    message.channel.send("https://cdn.discordapp.com/attachments/495806477995343882/495888066511241226/tumblr_pb2p2wFXfr1tlsxtjo2_1280.jpg");
+  } else
+
+  if (message.content.includes("i love sas")) {
+    message.channel.send("https://cdn.discordapp.com/attachments/495806477995343882/495888066511241226/tumblr_pb2p2wFXfr1tlsxtjo2_1280.jpg");
+  } else
+
+  if (message.content.includes("I love sas")) {
+    message.channel.send("https://cdn.discordapp.com/attachments/495806477995343882/495888066511241226/tumblr_pb2p2wFXfr1tlsxtjo2_1280.jpg");
+  } else
+
+  if (message.content.includes("i love Sas")) {
+    message.channel.send("https://cdn.discordapp.com/attachments/495806477995343882/495888066511241226/tumblr_pb2p2wFXfr1tlsxtjo2_1280.jpg");
+  } else
+
+  if (message.content.includes("I love Sas")) {
+    message.channel.send("https://cdn.discordapp.com/attachments/495806477995343882/495888066511241226/tumblr_pb2p2wFXfr1tlsxtjo2_1280.jpg");
+  } else
+
+  if (message.content.includes("I Love Sas")) {
+    message.channel.send("https://cdn.discordapp.com/attachments/495806477995343882/495888066511241226/tumblr_pb2p2wFXfr1tlsxtjo2_1280.jpg");
+  } else
+
+  if (message.content.includes("I love Haise")) {
+    message.channel.send("https://cdn.discordapp.com/attachments/495806477995343882/495888066511241226/tumblr_pb2p2wFXfr1tlsxtjo2_1280.jpg");
+  } else
+
+
+
+
+  if (message.content.includes("fuck")) {
+    message.channel.send("https://cdn.discordapp.com/attachments/495806477995343882/495888725037940747/sigh.gif  Language...");
+  } else
+
+  if (message.content.includes("Fuck")) {
+    message.channel.send("https://cdn.discordapp.com/attachments/495806477995343882/495888725037940747/sigh.gif  Language...");
+  } else
+
+  if (message.content.includes("bitch")) {
+    message.channel.send("https://cdn.discordapp.com/attachments/495806477995343882/495888725037940747/sigh.gif  Language...");
+  } else
+
+  if (message.content.includes("Bitch")) {
+    message.channel.send("https://cdn.discordapp.com/attachments/495806477995343882/495888725037940747/sigh.gif  Language...");
+  } else
+
+  if (message.content.includes("suck my")) {
+    message.channel.send("https://cdn.discordapp.com/attachments/495806477995343882/495888725037940747/sigh.gif  Language...");
+  } else
+
+  if (message.content.includes("Suck my")) {
+    message.channel.send("https://cdn.discordapp.com/attachments/495806477995343882/495888725037940747/sigh.gif  Language...");
+  } else
+
+  if (message.content.includes("Suck My")) {
+    message.channel.send("https://cdn.discordapp.com/attachments/495806477995343882/495888725037940747/sigh.gif  Language...");
+  } else
+
+
+
+
+
+
 
   if (message.content.includes("i love you haise")) {
     message.channel.send(randomMessage());
@@ -125,6 +201,9 @@ client.on("message", (message)=>{
   if (message.content.includes("I love you, Sas")) {
     message.channel.send(randomMessage());
   } 
+
+
+
 
 
 
