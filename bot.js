@@ -69,6 +69,15 @@ client.on("message", (message) => {
 });
 
 
+client.on("message", (message) => {
+
+  if (message.content.includes("hhaise....aahahah...")) {
+    message.channel.send("......*cough* Anyway...");
+  } 
+
+});
+
+
 
 client.on("message", (message)=>{ 
 
