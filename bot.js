@@ -25,13 +25,13 @@ client.on("message", (message) => {
 function randomMessage(){
     var randomNumber = Math.round(Math.random()*2); // 0, 1 or 2
     switch(randomNumber){
-        case 0: return 'Hello!';
-        case 1: return 'Bye!';
-        case 2: return 'Random';
+        case 0: return "Hello!";
+        case 1: return "Bye!";
+        case 2: return "Random";
     }
 }
 
-client.on('message', (message)=>{ 
+client.on("message", (message)=>{ 
 
   if (message.content.toLowerCase().includes("I love you, Haise")) { 
     message.channel.send(randomMessage());
