@@ -50,6 +50,10 @@ client.on("message", (message)=>{
     message.channel.send(randomMessage());
   } else
 
+    if (message.content.includes("I love you haise")) {
+    message.channel.send(randomMessage());
+  } else
+
   if (message.content.includes("I love you Haise")) {
     message.channel.send(randomMessage());
   } else
@@ -74,6 +78,10 @@ client.on("message", (message)=>{
 
 
   if (message.content.includes("i love you sas")) {
+    message.channel.send(randomMessage());
+  } else
+
+  if (message.content.includes("I love you sas")) {
     message.channel.send(randomMessage());
   } else
 
