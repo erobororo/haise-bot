@@ -31,12 +31,21 @@ function randomMessage(){
 
 
 function randomImage(){
-    var randomNumber = Math.round(Math.random()*4);
+    var randomNumber = Math.round(Math.random()*10);
     switch(randomNumber){
         case 0: return "https://cdn.discordapp.com/attachments/495806477995343882/495877482155606035/Screen_Shot_2018-09-28_at_7.41.57_PM.png";
-        case 1: return "https://media.giphy.com/media/CZpro4AZHs436/giphy.gif";
-        case 2: return "https://media.giphy.com/media/CZpro4AZHs436/giphy2.gif";
-        case 3: return "https://media.giphy.com/media/CZpro4AZHs436/giphy3.gif";
+        case 1: return "https://cdn.discordapp.com/attachments/495806477995343882/495888079937077249/Screen_Shot_2017-11-06_at_11.25.14_PM.png";
+        case 2: return "https://cdn.discordapp.com/attachments/495806477995343882/495888085557706754/Screen_Shot_2018-04-14_at_11.44.24_AM.png";
+        case 3: return "https://cdn.discordapp.com/attachments/495806477995343882/495888089441370123/Screen_Shot_2018-03-15_at_10.58.04_PM.png";
+        case 4: return "https://cdn.discordapp.com/attachments/495806477995343882/495888079823962112/p_001.png";
+        case 5: return "https://cdn.discordapp.com/attachments/495806477995343882/495888076099551234/p_001.jpg";
+        case 6: return "https://cdn.discordapp.com/attachments/495806477995343882/495888072525742080/unknown-2.png";
+        case 7: return "https://cdn.discordapp.com/attachments/495806477995343882/495891097390940170/tumblr_o6n4lfHmjP1ujrkg6o1_1280.jpg";
+        case 8: return "https://cdn.discordapp.com/attachments/495806477995343882/495891202294415370/tumblr_obutvxXR3P1trjqzto1_1280.jpg";
+        case 9: return "https://cdn.discordapp.com/attachments/495806477995343882/495891208908963841/tumblr_nz4fl9GUiX1tz1ui0o1_500.jpg";
+        case 10: return "https://cdn.discordapp.com/attachments/495806477995343882/495891404304678915/Screen_Shot_2016-02-05_at_9.19.57_PM.png";
+        case 11: return "https://cdn.discordapp.com/attachments/495806477995343882/495891720861515776/Screen_Shot_2016-01-02_at_10.06.29_PM.png";
+        case 12: return "https://cdn.discordapp.com/attachments/495806477995343882/495897042111954944/socold.gif";
     }
 }
 
