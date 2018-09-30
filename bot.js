@@ -31,7 +31,7 @@ function randomMessage(){
 
 
 function randomImage(){
-    var randomNumber = Math.round(Math.random()*10);
+    var randomNumber = Math.round(Math.random()*12);
     switch(randomNumber){
         case 0: return "https://cdn.discordapp.com/attachments/495806477995343882/495877482155606035/Screen_Shot_2018-09-28_at_7.41.57_PM.png";
         case 1: return "https://cdn.discordapp.com/attachments/495806477995343882/495888079937077249/Screen_Shot_2017-11-06_at_11.25.14_PM.png";
